@@ -17,6 +17,14 @@ int main() {
 		result = num1 - num2;
 		cout << num1<<"-"<<num2<<" = "<<result;
 		break;
+	case '*':
+		result = num1* num2;
+		cout << num1 << "*"<<num2<<" = "<<result;
+		break;
+	case '/':
+		result = num1/num2;
+		cout << num1 << "/" << num2<< " = "<< result;
+		break;
 	default:
 		cout << "wrong Operation" <<endl;
 	}
